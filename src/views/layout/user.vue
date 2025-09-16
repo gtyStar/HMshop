@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="logout-btn">
+    <div class="logout-btn" v-if="isLogin">
      <button @click="logout">退出登录</button>
     </div>
   </div>
